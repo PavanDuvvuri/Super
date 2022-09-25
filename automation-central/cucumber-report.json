@@ -1,0 +1,4940 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "this-test-is-used-to-tests-the-card-details-positive-flow;test-the-card-details-with-all-fields",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Test the card details with All Fields",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I get user name and password with \"Global\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9690400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I login with that user name and pasword",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1344257599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "verify the status code is 200",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3821300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Verify the response time is less then \"level1ResponseTime\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5962599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "check the authentication response details",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:64"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6045799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I store token after login",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3791100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I call the Get cards API with all fields",
+            "match": {
+              "location": "step-definition\\api-steps\\CardDetailsFlow.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 673790100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "verify the status code is 200",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 709000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "Verify the response time is less then \"level1ResponseTime\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3312699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "check the get cards response details",
+            "match": {
+              "location": "step-definition\\api-steps\\CardDetailsFlow.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5441500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 510099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 150499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 76099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 112999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 164999
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ApiTests",
+            "line": 4
+          },
+          {
+            "name": "@Cards",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "this-test-is-used-to-tests-the-card-details-positive-flow;test-the-card-details-with-mandatory-fields",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Test the card details with Mandatory Fields",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "I get user name and password with \"Global\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1076499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "I login with that user name and pasword",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 805633300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "verify the status code is 200",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 806699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "Verify the response time is less then \"level1ResponseTime\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2410300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "check the authentication response details",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:64"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1894700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "I store token after login",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2891599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "I call the Get cards API with mandatory fields",
+            "match": {
+              "location": "step-definition\\api-steps\\CardDetailsFlow.js:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 747599199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "verify the status code is 200",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 463600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "Verify the response time is less then \"level1ResponseTime\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3927799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "check the get cards response details",
+            "match": {
+              "location": "step-definition\\api-steps\\CardDetailsFlow.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3143899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 109099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 52199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 44099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 48099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 47300
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ApiTests",
+            "line": 17
+          },
+          {
+            "name": "@Cards",
+            "line": 17
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "this-test-is-used-to-tests-the-card-details-positive-flow;test-the-card-details-without-access-token",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "Test the card details without access token",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 32,
+            "name": "I call the Get cards API without accesstoken",
+            "match": {
+              "location": "step-definition\\api-steps\\CardDetailsFlow.js:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1818189899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "verify the status code is 500",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 207900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "Verify the response time is less then \"level1ResponseTime\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1633500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "check the get cards without accesstoken",
+            "match": {
+              "location": "step-definition\\api-steps\\CardDetailsFlow.js:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1356699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 21100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 22900
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 8200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 172899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 10100
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ApiTests",
+            "line": 30
+          },
+          {
+            "name": "@Cards",
+            "line": 30
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "this-test-is-used-to-tests-the-card-details-positive-flow;test-the-delete-card-details-with-mandatory-fields",
+        "keyword": "Scenario",
+        "line": 38,
+        "name": "Test the delete card details with Mandatory Fields",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 39,
+            "name": "I get user name and password with \"Global\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 123299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 40,
+            "name": "I login with that user name and pasword",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 416238800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "verify the status code is 200",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 225200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "Verify the response time is less then \"level1ResponseTime\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1386299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 43,
+            "name": "check the authentication response details",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:64"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1333199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "I store token after login",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1965600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 45,
+            "name": "I call the Delete cards API",
+            "match": {
+              "location": "step-definition\\api-steps\\CardDetailsFlow.js:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 672213099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 46,
+            "name": "verify the status code is 200",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 307499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 47,
+            "name": "Verify the response time is less then \"level1ResponseTime\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 990799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 48,
+            "name": "check the delete cards response details",
+            "match": {
+              "location": "step-definition\\api-steps\\CardDetailsFlow.js:82"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1091000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 20999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 8699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 7099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 11300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 8400
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ApiTests",
+            "line": 37
+          },
+          {
+            "name": "@Cards",
+            "line": 37
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "this-test-is-used-to-tests-the-card-details-positive-flow;test-the-activate-card-details-with-mandatory-fields",
+        "keyword": "Scenario",
+        "line": 51,
+        "name": "Test the activate card details with Mandatory Fields",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 52,
+            "name": "I get user name and password with \"Global\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 158100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 53,
+            "name": "I login with that user name and pasword",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 566385200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 54,
+            "name": "verify the status code is 200",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 207000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 55,
+            "name": "Verify the response time is less then \"level1ResponseTime\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2502500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 56,
+            "name": "check the authentication response details",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:64"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1575099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 57,
+            "name": "I store token after login",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3074800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 58,
+            "name": "I call the Activate card API",
+            "match": {
+              "location": "step-definition\\api-steps\\CardDetailsFlow.js:88"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 223076099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 59,
+            "name": "verify the status code is 200",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 325099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 60,
+            "name": "Verify the response time is less then \"level1ResponseTime\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2388999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 61,
+            "name": "check the activate cards response details",
+            "match": {
+              "location": "step-definition\\api-steps\\CardDetailsFlow.js:99"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1572500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 26999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 13499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 15799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 14199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 13800
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ApiTests",
+            "line": 50
+          },
+          {
+            "name": "@Cards",
+            "line": 50
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "this-test-is-used-to-tests-the-card-details-positive-flow;test-the-deactivate-card-details-with-invalid-card-id",
+        "keyword": "Scenario",
+        "line": 65,
+        "name": "Test the deactivate card details with invalid card id",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 66,
+            "name": "I call the deactivate card API with invalid card id",
+            "match": {
+              "location": "step-definition\\api-steps\\CardDetailsFlow.js:105"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 232138400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 67,
+            "name": "verify the status code is 500",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 215099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 68,
+            "name": "Verify the response time is less then \"level1ResponseTime\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1239600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 69,
+            "name": "check the deactivate card with invalid card response details",
+            "match": {
+              "location": "step-definition\\api-steps\\CardDetailsFlow.js:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2030499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 25400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 9000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 9899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 9500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 8699
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ApiTests",
+            "line": 64
+          },
+          {
+            "name": "@Cards",
+            "line": 64
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "this-test-is-used-to-tests-the-card-details-positive-flow;test-the-deactivate-card-details-without-access-token",
+        "keyword": "Scenario",
+        "line": 72,
+        "name": "Test the deactivate card details without access token",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 73,
+            "name": "I call the deactivate card API without access token",
+            "match": {
+              "location": "step-definition\\api-steps\\CardDetailsFlow.js:121"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 205321300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 74,
+            "name": "verify the status code is 500",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 168499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 75,
+            "name": "Verify the response time is less then \"level1ResponseTime\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1644300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 76,
+            "name": "check the get cards without accesstoken",
+            "match": {
+              "location": "step-definition\\api-steps\\CardDetailsFlow.js:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 232599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 13700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 7500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 6999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 6400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 14699
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ApiTests",
+            "line": 71
+          },
+          {
+            "name": "@Cards",
+            "line": 71
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "this-test-is-used-to-tests-the-card-details-positive-flow;test-the-activate-card-details-without-access-token",
+        "keyword": "Scenario",
+        "line": 79,
+        "name": "Test the activate card details without access token",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 80,
+            "name": "I call the activate card API without access token",
+            "match": {
+              "location": "step-definition\\api-steps\\CardDetailsFlow.js:129"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 602177999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 81,
+            "name": "verify the status code is 500",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 335299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 82,
+            "name": "Verify the response time is less then \"level1ResponseTime\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2287000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 83,
+            "name": "check the get cards without accesstoken",
+            "match": {
+              "location": "step-definition\\api-steps\\CardDetailsFlow.js:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 480700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 24499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 12500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 12399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 11600
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 11600
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ApiTests",
+            "line": 78
+          },
+          {
+            "name": "@Cards",
+            "line": 78
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "this-test-is-used-to-tests-the-card-details-positive-flow;test-the-activate-card-details-with-invalid-card-id",
+        "keyword": "Scenario",
+        "line": 86,
+        "name": "Test the activate card details with invalid card id",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 87,
+            "name": "I call the activate card API with invalid card id",
+            "match": {
+              "location": "step-definition\\api-steps\\CardDetailsFlow.js:140"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 210732800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 88,
+            "name": "verify the status code is 500",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 348200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 89,
+            "name": "Verify the response time is less then \"level1ResponseTime\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2141499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 90,
+            "name": "check the cards response with invalid card id",
+            "match": {
+              "location": "step-definition\\api-steps\\CardDetailsFlow.js:150"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3978400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 48899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 31099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 25400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 42099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 270500
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ApiTests",
+            "line": 85
+          },
+          {
+            "name": "@Cards",
+            "line": 85
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "this-test-is-used-to-tests-the-card-details-positive-flow",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "This Test is used to tests the Card details positive flow",
+    "tags": [],
+    "uri": "features\\api_feature_files\\common_api_tests\\Cards\\CardDetailsFlow.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "this-test-is-used-to-tests-the-customer-object(get-customer)-details;test-the-customer--object(get-customer)-with-mandatory-fields",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Test the customer  object(get customer) with mandatory fields",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I get user name and password with \"Global\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 227900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I login with that user name and pasword",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 358304700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "verify the status code is 200",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 228199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Verify the response time is less then \"level1ResponseTime\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2083600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "check the authentication response details",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:64"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1938499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I store token after login",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3026700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I call the Get Customer object API with mandatory fields",
+            "match": {
+              "location": "step-definition\\api-steps\\customer_object.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 257827300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "verify the status code is 200",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 350299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Verify the response time is less then \"level1ResponseTime\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2027299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "check the get customer object with mandatory field response details",
+            "match": {
+              "location": "step-definition\\api-steps\\customer_object.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2436499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 26400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 17899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 13700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 15399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 15500
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ApiTests",
+            "line": 3
+          },
+          {
+            "name": "@CustomerObject",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "this-test-is-used-to-tests-the-customer-object(get-customer)-details;test-the-customer--object(get-customer)-with-all-fields",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Test the customer  object(get customer) with all fields",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "I get user name and password with \"Global\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 235399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I login with that user name and pasword",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 356990300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "verify the status code is 200",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 193000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "Verify the response time is less then \"level1ResponseTime\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2308000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "check the authentication response details",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:64"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2102100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "I store token after login",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2844500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "I call the Get Customer object API with all fields",
+            "match": {
+              "location": "step-definition\\api-steps\\customer_object.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 529628099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "verify the status code is 200",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 239600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "Verify the response time is less then \"level1ResponseTime\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1528699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "check the get customer object with all field response details",
+            "match": {
+              "location": "step-definition\\api-steps\\customer_object.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2151599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 21999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 13800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 12899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 12200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 12300
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ApiTests",
+            "line": 16
+          },
+          {
+            "name": "@CustomerObject",
+            "line": 16
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "this-test-is-used-to-tests-the-customer-object(get-customer)-details;test-the-customer-object(get-customer)-without-accesstoken",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Test the customer object(get customer) without accesstoken",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 31,
+            "name": "I call the Get customer object API without accesstoken",
+            "match": {
+              "location": "step-definition\\api-steps\\customer_object.js:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 206948900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "verify the status code is 500",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 316199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "Verify the response time is less then \"level1ResponseTime\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2169400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "check the get customer object without accesstoken",
+            "match": {
+              "location": "step-definition\\api-steps\\customer_object.js:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8422399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 33699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 20299
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 18700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 58099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 33200
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ApiTests",
+            "line": 29
+          },
+          {
+            "name": "@CustomerObject",
+            "line": 29
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "this-test-is-used-to-tests-the-customer-object(get-customer)-details",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "This Test is used to tests the customer object(get customer) details",
+    "tags": [],
+    "uri": "features\\api_feature_files\\common_api_tests\\customer_object.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "this-test-is-used-to-tests-the-customer-bet-history;test-the-customer-bet-history-with-mandatory-fields",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Test the customer bet history with mandatory fields",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I get user name and password with \"Global\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 275100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I login with that user name and pasword",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 355538400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "verify the status code is 200",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 200399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Verify the response time is less then \"level1ResponseTime\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1987699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "check the authentication response details",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:64"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1435299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I store token after login",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2729700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I call the Get Customer bet history API with mandatory fields",
+            "match": {
+              "location": "step-definition\\api-steps\\get_customer_bethistory.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2565905499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "verify the status code is 200",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 143700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Verify the response time is less then \"level1ResponseTime\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 838999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "check the get customer bet history with mandatory field response details",
+            "match": {
+              "location": "step-definition\\api-steps\\get_customer_bethistory.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2586499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 11799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 5100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4400
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ApiTests",
+            "line": 3
+          },
+          {
+            "name": "@customerbethistory",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "this-test-is-used-to-tests-the-customer-bet-history;test-the-customer-unsettled-bet-history-with-all-fields",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Test the customer unsettled bet history with all fields",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "I get user name and password with \"Global\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 133200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I login with that user name and pasword",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 379242800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "verify the status code is 200",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 202899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "Verify the response time is less then \"level1ResponseTime\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1825999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "check the authentication response details",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:64"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2020299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "I store token after login",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2808899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "I call the Get Customer unsettled bet history API with all fields",
+            "match": {
+              "location": "step-definition\\api-steps\\get_customer_bethistory.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1921441599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "verify the status code is 200",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 145800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "Verify the response time is less then \"level1ResponseTime\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1097599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "check the get customer unsettled bet history with all field response details",
+            "match": {
+              "location": "step-definition\\api-steps\\get_customer_bethistory.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 961400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 11100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 5199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 5199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4600
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 5000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ApiTests",
+            "line": 16
+          },
+          {
+            "name": "@customerbethistory",
+            "line": 16
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "this-test-is-used-to-tests-the-customer-bet-history;test-the-customer-settled-bet-history-with-all-fields",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Test the customer settled bet history with all fields",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 31,
+            "name": "I get user name and password with \"Global\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 155300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "I login with that user name and pasword",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 362450500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "verify the status code is 200",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 111899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "Verify the response time is less then \"level1ResponseTime\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1675099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "check the authentication response details",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:64"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1242799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "I store token after login",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1975999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "I call the Get Customer settled bet history API with all fields",
+            "match": {
+              "location": "step-definition\\api-steps\\get_customer_bethistory.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 370450699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "verify the status code is 200",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 269999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "Verify the response time is less then \"level1ResponseTime\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1136300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 40,
+            "name": "check the get customer settled bet history with all field response details",
+            "match": {
+              "location": "step-definition\\api-steps\\get_customer_bethistory.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2408600
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 16300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 7500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 6199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 6199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 5899
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ApiTests",
+            "line": 29
+          },
+          {
+            "name": "@customerbethistory",
+            "line": 29
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "this-test-is-used-to-tests-the-customer-bet-history;test-the-customer--bet-history-without-accesstoken",
+        "keyword": "Scenario",
+        "line": 44,
+        "name": "Test the customer  bet history without accesstoken",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 45,
+            "name": "I call the Get customer bet history API without accesstoken",
+            "match": {
+              "location": "step-definition\\api-steps\\get_customer_bethistory.js:69"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 187283400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 46,
+            "name": "verify the status code is 500",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 289000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 47,
+            "name": "Verify the response time is less then \"level1ResponseTime\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1563799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 48,
+            "name": "check the get customer bet history without accesstoken",
+            "match": {
+              "location": "step-definition\\api-steps\\get_customer_bethistory.js:77"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2694900
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 26700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 16099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 15500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 14699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 46599
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ApiTests",
+            "line": 43
+          },
+          {
+            "name": "@customerbethistory",
+            "line": 43
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "this-test-is-used-to-tests-the-customer-bet-history",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "This Test is used to tests the customer bet history",
+    "tags": [],
+    "uri": "features\\api_feature_files\\common_api_tests\\get_customer_bethistory.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "get-withdrawal;test-the-get-withdrawal-test",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Test the Get Withdrawal test",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I get user name and password with \"Global\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 331099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I login with that user name and pasword",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 350623699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "verify the status code is 200",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 200300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Verify the response time is less then \"level1ResponseTime\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1870499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "check the authentication response details",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:64"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1860199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I store token after login",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2878300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I call the Get Withdrawal API",
+            "match": {
+              "location": "step-definition\\api-steps\\get_withdrawal_data.js:8"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 1853300,
+              "error_message": "TypeError: Cannot read properties of undefined (reading 'token')\n    at World.<anonymous> (C:\\Users\\pavan\\Documents\\Gitlab_Space\\Super_test\\automation-central\\step-definition\\api-steps\\get_withdrawal_data.js:9:31)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "verify the status code is 200",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:25"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "Verify the response time is less then \"level1ResponseTime\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:31"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "check the get Withdrawal response details",
+            "match": {
+              "location": "step-definition\\api-steps\\get_withdrawal_data.js:25"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 26499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 15600
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 24600
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 14100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 12899
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ApiTests",
+            "line": 4
+          },
+          {
+            "name": "@GetWithdrawal",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "get-withdrawal",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Get withdrawal",
+    "tags": [],
+    "uri": "features\\api_feature_files\\common_api_tests\\get_withdrawal.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "this-test-is-used-to-tests-journal-details;test-the-journal-details-without-limit",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Test the Journal Details without limit",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I get user name and password with \"Global\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 205399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I login with that user name and pasword",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 379675099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "verify the status code is 200",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 197299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Verify the response time is less then \"level1ResponseTime\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1770400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "check the authentication response details",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:64"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1852100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I store token after login",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2993599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I call the Get Journal API without limit",
+            "match": {
+              "location": "step-definition\\api-steps\\journal.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8057139699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "verify the status code is 200",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 254099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Verify the response time is less then \"level1ResponseTime\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7613100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "check the get Journal without limit response details",
+            "match": {
+              "location": "step-definition\\api-steps\\journal.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1756700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 327400,
+              "error_message": "\n\nSoft assertion  28:\n\n\t1 : key -> $ \t\t message: expected false to deeply equal true\nStack: AssertionError: \n\t1 : key -> $ \t\t message: expected false to deeply equal true\n\n    ,_chaiDeepEqual (C:\\Users\\pavan\\Documents\\Gitlab_Space\\Super_test\\automation-central\\node_modules\\soft-assert\\lib\\helper\\assertion-helper.js:349:20)\n    ,_assert (C:\\Users\\pavan\\Documents\\Gitlab_Space\\Super_test\\automation-central\\node_modules\\soft-assert\\lib\\helper\\assertion-helper.js:173:23)\n    ,_prepareAndAssert (C:\\Users\\pavan\\Documents\\Gitlab_Space\\Super_test\\automation-central\\node_modules\\soft-assert\\lib\\helper\\assertion-helper.js:413:12)\n     (C:\\Users\\pavan\\Documents\\Gitlab_Space\\Super_test\\automation-central\\node_modules\\soft-assert\\lib\\assertion.js:88:12)\n    at Assertion.softTrue (C:\\Users\\pavan\\Documents\\Gitlab_Space\\Super_test\\automation-central\\node_modules\\soft-assert\\lib\\assertion.js:235:12)\n    at World.<anonymous> (C:\\Users\\pavan\\Documents\\Gitlab_Space\\Super_test\\automation-central\\step-definition\\api-steps\\common_steps.js:34:19)\n    + expected - actual\n\n     {\n    -  \"Soft assertion 28\": false\n    +  \"Soft assertion 28\": true\n     }\n"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 31199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 16300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 14199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 14500
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ApiTests",
+            "line": 3
+          },
+          {
+            "name": "@Journal",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "this-test-is-used-to-tests-journal-details;test-the-journal-details-with-limit",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Test the Journal Details with limit",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "I get user name and password with \"Global\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 292099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I login with that user name and pasword",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 354681199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "verify the status code is 200",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 194299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "Verify the response time is less then \"level1ResponseTime\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2304600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "check the authentication response details",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:64"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2254799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "I store token after login",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3564700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "I call the Get Journal API with limit",
+            "match": {
+              "location": "step-definition\\api-steps\\journal.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 326198799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "verify the status code is 200",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 322800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "Verify the response time is less then \"level1ResponseTime\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1724499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "check the get Journal with limit response details",
+            "match": {
+              "location": "step-definition\\api-steps\\journal.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1841599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 27100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 14299
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 13199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 11699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 13400
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ApiTests",
+            "line": 16
+          },
+          {
+            "name": "@Journal",
+            "line": 16
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "this-test-is-used-to-tests-journal-details",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "This Test is used to tests Journal details",
+    "tags": [],
+    "uri": "features\\api_feature_files\\common_api_tests\\journal.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "this-test-is-used-to-tests-language-controller-details;test-the-self-language-english",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Test the self Language English",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I get user name and password with \"Global\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 227699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I login with that user name and pasword",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 382852099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "verify the status code is 200",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 208199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Verify the response time is less then \"level1ResponseTime\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1965799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "check the authentication response details",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:64"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1425699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I store token after login",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2929100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I call the put English Language API",
+            "match": {
+              "location": "step-definition\\api-steps\\language.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 494601600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "verify the status code is 200",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 258200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Verify the response time is less then \"level1ResponseTime\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1895600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "check the put English Language response details",
+            "match": {
+              "location": "step-definition\\api-steps\\language.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1409299
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 22300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 13800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 12700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 16400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 12000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ApiTests",
+            "line": 3
+          },
+          {
+            "name": "@LanguageController",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "this-test-is-used-to-tests-language-controller-details;test-the-self-language-french",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Test the self Language French",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "I get user name and password with \"Global\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 225200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I login with that user name and pasword",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 361233300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "verify the status code is 200",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3383300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "Verify the response time is less then \"level1ResponseTime\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1989200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "check the authentication response details",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:64"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1929599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "I store token after login",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2657199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "I call the put French Language API",
+            "match": {
+              "location": "step-definition\\api-steps\\language.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 208307899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "verify the status code is 200",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 268300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "Verify the response time is less then \"level1ResponseTime\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1733399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "check the put French Language response details",
+            "match": {
+              "location": "step-definition\\api-steps\\language.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1351200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 11300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 5100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 5700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 5800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4599
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ApiTests",
+            "line": 16
+          },
+          {
+            "name": "@LanguageController",
+            "line": 16
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "this-test-is-used-to-tests-language-controller-details",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "This Test is used to tests Language Controller details",
+    "tags": [],
+    "uri": "features\\api_feature_files\\common_api_tests\\language.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "this-test-is-validate-the-registration-with-different-types-of-data;test-customer-set-password",
+        "keyword": "Scenario Outline",
+        "line": 5,
+        "name": "Test customer set password",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I populate registration details like \"{{random_Email}}\" \"{{random_FirstName}}\" \"{{random_LastName}}\" \"Apitest@123\" \"{{property_currencyCode}}\" \"{{tsAndCs}}\" \"{{random_Username}}\" \"{{random_MobileNumber}}\" \"MR\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12276099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I call the registration service",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:140"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7789165099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "verify the status code is \"200\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2236299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Verify the response time is less then \"level1ResponseTime\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3105500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I store token after registration",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4103700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I store account_id after registration",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2909599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "check the registration response details",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:148"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2399899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "activate the user in the custodian",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:156"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1125599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I call the API for create a customer set password",
+            "match": {
+              "location": "step-definition\\api-steps\\password.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 474071499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "check the customer set password response details",
+            "match": {
+              "location": "step-definition\\api-steps\\password.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1630099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 237899,
+              "error_message": "\n\nSoft assertion  7:\n\n\t1 : key -> $ \t\t message: expected false to deeply equal true\nStack: AssertionError: \n\t1 : key -> $ \t\t message: expected false to deeply equal true\n\n    ,_chaiDeepEqual (C:\\Users\\pavan\\Documents\\Gitlab_Space\\Super_test\\automation-central\\node_modules\\soft-assert\\lib\\helper\\assertion-helper.js:349:20)\n    ,_assert (C:\\Users\\pavan\\Documents\\Gitlab_Space\\Super_test\\automation-central\\node_modules\\soft-assert\\lib\\helper\\assertion-helper.js:173:23)\n    ,_prepareAndAssert (C:\\Users\\pavan\\Documents\\Gitlab_Space\\Super_test\\automation-central\\node_modules\\soft-assert\\lib\\helper\\assertion-helper.js:413:12)\n     (C:\\Users\\pavan\\Documents\\Gitlab_Space\\Super_test\\automation-central\\node_modules\\soft-assert\\lib\\assertion.js:88:12)\n    at Assertion.softTrue (C:\\Users\\pavan\\Documents\\Gitlab_Space\\Super_test\\automation-central\\node_modules\\soft-assert\\lib\\assertion.js:235:12)\n    at World.<anonymous> (C:\\Users\\pavan\\Documents\\Gitlab_Space\\Super_test\\automation-central\\step-definition\\api-steps\\common_steps.js:34:19)\n    + expected - actual\n\n     {\n    -  \"Soft assertion 7\": false\n    +  \"Soft assertion 7\": true\n     }\n"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 28299
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 15200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 13299
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 23799
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ApiTests",
+            "line": 4
+          },
+          {
+            "name": "@password",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "this-test-is-validate-the-registration-with-different-types-of-data;test-the-authentication-with-new-password",
+        "keyword": "Scenario Outline",
+        "line": 23,
+        "name": "Test the authentication with new password",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "I get user name and new password with \"Global\"",
+            "match": {
+              "location": "step-definition\\api-steps\\password.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3115200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "I login with that user name and new pasword",
+            "match": {
+              "location": "step-definition\\api-steps\\password.js:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 410346399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "verify the status code is 200",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 199200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "Verify the response time is less then \"level1ResponseTime\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2073300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "check the authentication response details",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:64"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1724599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 32899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 17100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 17799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 19299
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 13600
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ApiTests",
+            "line": 22
+          },
+          {
+            "name": "@password",
+            "line": 22
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "this-test-is-validate-the-registration-with-different-types-of-data",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "This Test is validate the registration with different types of data",
+    "tags": [],
+    "uri": "features\\api_feature_files\\common_api_tests\\password.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "post-customer-close-account;test-the-post-customer-close-account-test",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Test the Post Customer Close Account test",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I populate registration details like \"{{random_Email}}\" \"{{random_FirstName}}\" \"{{random_LastName}}\" \"Apitest@123\" \"{{property_currencyCode}}\" \"{{tsAndCs}}\" \"{{random_Username}}\" \"{{random_MobileNumber}}\" \"MR\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4471300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I call the registration service",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:140"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5118316300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "verify the status code is \"200\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 883800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Verify the response time is less then \"level1ResponseTime\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1632100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I store token after registration",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3047699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "check the registration response details",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:148"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1638799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I call the Post Customer Close Account API",
+            "match": {
+              "location": "step-definition\\api-steps\\post_customer_close_account.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 252324500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "verify the status code is \"200\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 383900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "Verify the response time is less then \"level1ResponseTime\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2219399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "check the Post Customer Close Account response details",
+            "match": {
+              "location": "step-definition\\api-steps\\post_customer_close_account.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2292900
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 31400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 17999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 25300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 29900
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 29900
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ApiTests",
+            "line": 4
+          },
+          {
+            "name": "@PostCustomerCloseAccount",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "post-customer-close-account",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Post customer close account",
+    "tags": [],
+    "uri": "features\\api_feature_files\\common_api_tests\\post_customer_close_account.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "this-test-is-validate-the-registration-with-different-types-of-data;test-the-get-customer-details-test",
+        "keyword": "Scenario Outline",
+        "line": 5,
+        "name": "Test the Get Customer details test",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I populate registration details like \"{{random_Email}}\" \"{{random_FirstName}}\" \"{{random_LastName}}\" \"Apitest@123\" \"{{property_currencyCode}}\" \"{{tsAndCs}}\" \"{{random_Username}}\" \"{{random_MobileNumber}}\" \"MR\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2342100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I call the registration service",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:140"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5030210100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "verify the status code is \"200\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 212800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Verify the response time is less then \"level1ResponseTime\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 838600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "check the registration response details",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:148"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 662499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 22400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 12500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 11300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 10700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 10099
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ApiTests",
+            "line": 4
+          },
+          {
+            "name": "@registration",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "this-test-is-validate-the-registration-with-different-types-of-data",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "This Test is validate the registration with different types of data",
+    "tags": [],
+    "uri": "features\\api_feature_files\\common_api_tests\\registration_lat.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "this-test-is-validate-the-deposit-limit-with-different-types-of-data;test-the-get-customer-details-test",
+        "keyword": "Scenario Outline",
+        "line": 5,
+        "name": "Test the Get Customer details test",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I populate registration details like \"{{random_Email}}\" \"{{random_FirstName}}\" \"{{random_LastName}}\" \"Apitest@123\" \"{{property_currencyCode}}\" \"{{tsAndCs}}\" \"{{random_Username}}\" \"{{random_MobileNumber}}\" \"MR\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1714400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I call the registration service",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:140"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5004509699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "verify the status code is \"200\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 334400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Verify the response time is less then \"level1ResponseTime\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1573600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I store token after registration",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2373899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I store account_id after registration",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3117300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "check the registration response details",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:148"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1395399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "activate the user in the custodian",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:156"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 556499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I call the Get deposit limit details",
+            "match": {
+              "location": "step-definition\\api-steps\\deposit_limits.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3838600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "verify the status code is \"200\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 221099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "Verify the response time is less then \"level1ResponseTime\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1865900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "check the deposit limit response details",
+            "match": {
+              "location": "step-definition\\api-steps\\deposit_limits.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1256499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 19199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 14200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 13299
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 11700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 16599
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ApiTests",
+            "line": 4
+          },
+          {
+            "name": "@deposit_limit_daily",
+            "line": 4
+          },
+          {
+            "name": "@deposit_limits",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "this-test-is-validate-the-deposit-limit-with-different-types-of-data;test-the-get-customer-details-test",
+        "keyword": "Scenario Outline",
+        "line": 20,
+        "name": "Test the Get Customer details test",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "I populate registration details like \"{{random_Email}}\" \"{{random_FirstName}}\" \"{{random_LastName}}\" \"Apitest@123\" \"{{property_currencyCode}}\" \"{{tsAndCs}}\" \"{{random_Username}}\" \"{{random_MobileNumber}}\" \"MR\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1901400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "I call the registration service",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:140"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 562308500,
+              "error_message": "TypeError: this.attach is not a function\n    at GetMethodRestManager.getCallWithToken (C:\\Users\\pavan\\Documents\\Gitlab_Space\\Super_test\\automation-central\\core-framework\\rest_connector\\get_rest_calls.js:38:14)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "verify the status code is \"200\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:28"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "Verify the response time is less then \"level1ResponseTime\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:31"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "I store token after registration",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:57"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "I store account_id after registration",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:61"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "check the registration response details",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:148"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 18100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 10100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 10900
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 10099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 10700
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ApiTests",
+            "line": 19
+          },
+          {
+            "name": "@deposit_limit_weekly",
+            "line": 19
+          },
+          {
+            "name": "@deposit_limits",
+            "line": 19
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "this-test-is-validate-the-deposit-limit-with-different-types-of-data;test-the-get-customer-details-test",
+        "keyword": "Scenario Outline",
+        "line": 31,
+        "name": "Test the Get Customer details test",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 32,
+            "name": "I populate registration details like \"{{random_Email}}\" \"{{random_FirstName}}\" \"{{random_LastName}}\" \"Apitest@123\" \"{{property_currencyCode}}\" \"{{tsAndCs}}\" \"{{random_Username}}\" \"{{random_MobileNumber}}\" \"MR\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1465100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "I call the registration service",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:140"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5166149000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "verify the status code is \"200\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 202899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "Verify the response time is less then \"level1ResponseTime\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1176000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "check the registration response details",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:148"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 658400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 22999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 10200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 7899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 8500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 6200
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ApiTests",
+            "line": 30
+          },
+          {
+            "name": "@deposit_limit_monthly",
+            "line": 30
+          },
+          {
+            "name": "@deposit_limits",
+            "line": 30
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "this-test-is-validate-the-deposit-limit-with-different-types-of-data",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "This Test is validate the deposit limit with different types of data",
+    "tags": [],
+    "uri": "features\\api_feature_files\\common_api_tests\\set_deposit_limits.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "this-is-used-to-test-the-validate-email-request;test-the-validate-email-test",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Test the validate email test",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I call the Get Validate Email API",
+            "match": {
+              "location": "step-definition\\api-steps\\validate_Email.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 467323600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "verify the status code is 200",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 275300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Verify the response time is less then \"level1ResponseTime\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1684100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "check the validate email response details",
+            "match": {
+              "location": "step-definition\\api-steps\\validate_Email.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1644800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 36099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 24300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 23000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 21799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 22699
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ApiTests",
+            "line": 4
+          },
+          {
+            "name": "@ValidateEmail",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "this-is-used-to-test-the-validate-email-request",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "This is used to test the validate email request",
+    "tags": [],
+    "uri": "features\\api_feature_files\\common_api_tests\\validate_Email.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "this-is-used-to-test-the-validate-username-request;test-the-validate-username-test",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Test the validate username test",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I call the Get Validate Username API",
+            "match": {
+              "location": "step-definition\\api-steps\\validate_Username.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 235107200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "verify the status code is 200",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 214399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Verify the response time is less then \"level1ResponseTime\"",
+            "match": {
+              "location": "step-definition\\api-steps\\common_steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1593599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "check the validate Username response details",
+            "match": {
+              "location": "step-definition\\api-steps\\validate_Username.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2119200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 39600
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 29199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 18700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 24399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 15599
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ApiTests",
+            "line": 4
+          },
+          {
+            "name": "@ValidateUsername",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "this-is-used-to-test-the-validate-username-request",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "This is used to test the validate username request",
+    "tags": [],
+    "uri": "features\\api_feature_files\\common_api_tests\\validate_Username.feature"
+  }
+]
